@@ -6,7 +6,7 @@ public class Crewmates implements Component {
 
     private String crewName;
 
-    public void CrewMate(String crewName){
+    public Crewmates(String crewName){
         this.crewName=crewName;
     }
     @Override
