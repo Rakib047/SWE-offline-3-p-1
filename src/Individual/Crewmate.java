@@ -11,6 +11,6 @@ public class Crewmate implements Component {
     }
     @Override
     public void doTask() {
-        System.out.println("Studying intersteller objects and doing basic maintenance works");
+        System.out.println(crewName+": Studying intersteller objects and doing basic maintenance works");
     }
 }

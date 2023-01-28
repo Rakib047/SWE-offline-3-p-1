@@ -10,7 +10,7 @@ public class Imposter implements Component {
     }
     @Override
     public void doTask() {
-        System.out.println("attempting to sabotage this voyage by poisoning the\n" +
+        System.out.println(imposterName+": Attempting to sabotage this voyage by poisoning the\n" +
                 "crewmates and damaging the spaceship");
     }
 }
