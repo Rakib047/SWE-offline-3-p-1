@@ -2,11 +2,11 @@ package Individual;
 
 import Component.Component;
 
-public class Crewmates implements Component {
+public class Crewmate implements Component {
 
     private String crewName;
 
-    public Crewmates(String crewName){
+    public Crewmate(String crewName){
         this.crewName=crewName;
     }
     @Override

@@ -1,5 +1,5 @@
 import Group.Passengers;
-import Individual.Crewmates;
+import Individual.Crewmate;
 import Individual.Imposter;
 
 public class Main {
@@ -7,11 +7,13 @@ public class Main {
         Passengers passengerGroup;
 
         passengerGroup=new Passengers();
-        passengerGroup.addPassenger(new Crewmates("Sayed"));
+        passengerGroup.addPassenger(new Crewmate("Sayed"));
         passengerGroup.addPassenger(new Imposter("Rakib"));
         passengerGroup.addPassenger(new Imposter("Sami"));
-        passengerGroup.addPassenger(new Crewmates("Shawon"));
-        passengerGroup.addPassenger(new Crewmates("Ahnaf"));
-        passengerGroup.addPassenger(new Crewmates("Porag"));
+        passengerGroup.addPassenger(new Crewmate("Shawon"));
+        passengerGroup.addPassenger(new Crewmate("Ahnaf"));
+        passengerGroup.addPassenger(new Crewmate("Porag"));
+
+        passengerGroup.doTask();
     }
 }
