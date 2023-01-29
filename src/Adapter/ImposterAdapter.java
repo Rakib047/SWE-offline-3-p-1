@@ -10,7 +10,7 @@ public class ImposterAdapter implements Spaceship {
     }
     @Override
     public void studyInterstellerObjects() {
-        //no work actually doing
+        System.out.println("Attempting to sabotage this voyage by poisoning the crewmates and damaging the spaceship");
     }
 
     @Override
