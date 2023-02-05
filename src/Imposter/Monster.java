@@ -1,5 +1,5 @@
 package Imposter;
 
-public interface ImposterDevice {
+public interface Monster {
     void damageSpaceship();
 }
